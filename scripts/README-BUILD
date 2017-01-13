@@ -1,0 +1,9 @@
+# How to run the continuous build
+
+First, you need to install asyncserial for flterm.py to work:
+(do this within your environment)
+$ conda install -c m-labs asyncserial=0.1
+
+After this has been done:
+1) go to the root HDMI2USB-litex-firmware directory
+2) run scripts/continuous-build.sh
